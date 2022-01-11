@@ -1,0 +1,25 @@
+/* Scroll Bar Master Styling Starts Here */
+/* All comments can be freely removed from the css */
+
+
+.scrollgeneric {line-height: 1px;font-size: 1px;position: absolute;top: 0; left: 0;}
+.vscrollerbase {width: 5px;background:#000;}
+.vscrollerbar {width: 5px;background: #000;}
+.hscrollerbase {height: 5px;background: #000;}
+.hscrollerbar {height: 5px;background: #000;}
+.hscrollerbar {background: #AAA 0px -30px repeat-x;}
+.vscrollerbar {background: #000 -5px 0px repeat-y;}
+.vscrollerbar, .hscrollerbar {padding: 5px;z-index: 2;}
+.vscrollerbarbeg {background:-45px -30px no-repeat;width: 5px;height: 5px !important;}
+.vscrollerbarend {background:-45px 0px no-repeat;width: 5px;height: 5px;}
+.hscrollerbarbeg {background:-60px -5px no-repeat;height: 5px;width: 5px !important;}
+.hscrollerbarend {background:-30px -5px no-repeat;height: 5px;width: 5px;}
+.scrollerjogbox {width: 5px;height: 5px;top: auto; left: auto;bottom: 0px; right: 0px;background: #000 0px 0px;}
+.vscrollerbase {background:#000 0px 0px repeat-y;}
+.vscrollerbasebeg {background:-30px -30px no-repeat;width: 5px;height: 5px !important;}
+.vscrollerbaseend {background:-60px -30px no-repeat;height: 5px;width: 5px;}
+.hscrollerbase {background: #000 0px -5px repeat-x;}
+.hscrollerbasebeg {background: -60px 0px no-repeat;height: 5px;width: 5px !important;}
+.hscrollerbaseend {height: 5px;width: 5px;background:-30px 0px no-repeat;}
+.scrollerjogbox:hover {background: #000 -45px -5px;}
+

@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^greenboxnigeria\.gbngr\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.greenboxnigeria\.gbngr\.com$
+RewriteRule ^/?$ "http\:\/\/www\.gbngr\.com" [R=301,L]
+RewriteRule ^archive/([0-9a-zA-Z_.,;:-]+)$ index.php?1=$1 [NC,L]
+
+ErrorDocument 404 http://www.greenboxnigeria.com/

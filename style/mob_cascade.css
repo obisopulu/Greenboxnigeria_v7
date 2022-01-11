@@ -1,0 +1,93 @@
+body{padding:0px;margin:0px;font-family:myFirstFont;font-size:1em;font-weight:bolder; background:#000}
+@font-face{font-family:myFirstFont;src:url(../res/segoe.ttf)}
+@font-face{font-family:mysecondFont;src:url(../res/OLDENGL.TTF)}
+table{width:100%}
+table, tr, td, section{border-collapse:collapse;}
+.splash{background:#222; font-size:2.5em; font-weight:100;vertical-align:bottom;}
+.splash1{font-size:.5em; font-weight:100; vertical-align:middle; height:30px; padding-right:20px; background:#222; color:#00E676}
+.splash2{font-size:.5em; font-weight:100; vertical-align:middle; text-align:right; height:30px; padding-right:20px; background:#222; color:#00E676}
+#service{display:none}
+.header{ height:10px; font-size:.9em}
+.header1{ height:40px; font-size:.9em; margin:0}
+.menunav{text-align:center; font-size:1em;font-weight:100;border:none;height:30px;width:auto;cursor:pointer;background:none;}
+.menu{text-align:center;font-weight:100}
+.publicupload{cursor:pointer}
+.body{width:100%;border:0;margin:0px}
+.playerart{width:43px}
+.playertitle{padding:0 5px;font-size:1em}
+.playerartist{padding:0 0 5px 5px;color:#AAA; width:100%;font-size:.7em}
+
+.tab1{}
+.tab2{}
+.tabheader{font-size:1.5em}
+.tabheader2{font-size:1.5em; text-align:center}
+
+#hot{height:190px; width:100%;overflow: auto;}
+.hotheader{font-size:2em; background:#000}
+.hottable{height:180px; width:180px}
+.hottable1{height:180px; width:180px}
+.hotart{height:; width:;}
+.hotlabel{background:rgba(0,0,0,.5);font-size:1em;padding:10px;vertical-align:bottom}
+.hotartist{height:px;}
+
+.sponsoredcontent1{background:rgba(0,0,0,.5); padding-bottom:10px}
+.sponsoredcontent{transform: rotate(-90deg);-webkit-transform: rotate(-90deg);-o-transform: rotate(-90deg);-moz-transform: rotate(-90deg);margin:0; padding:0; width:20px; font-size:.7em}
+
+
+.blogtable{height:100px; margin-bottom:10px;cursor:pointer}
+.blogtimestamp{text-align:right;}
+.blogart{width:100px}
+.blogtopic{color:#00E676;padding-left:10px;font-size:1.2em;}
+.blogwriteup{padding-left:10px;font-size:1em; text-indent:20%}
+.blogtype{ font-size:.8em;color:#AAA}
+
+.tag{padding:5px 10px; margin:5px 10px; cursor:pointer; text-align:center;display:inline-block}
+.pagination{padding:5px 10px; margin:5px 10px; cursor:pointer; width:20px; text-align:center; margin-top:20px}
+.paginationnon{padding:5px 10px; margin10px; width:20px; text-align:center; margin-top:20px}
+.paginationbutton{padding:10px 20px; margin:20px 0 0 0; cursor:pointer; width:90%; text-align:center}
+.share{font-size:.7em; display:inline}
+.plays{font-size:.7em;padding:5px 10px; background:#FFF; color:#222}
+
+.play{background:url(../images/desk_play.png) center no-repeat; background-size:20px 20px; border:none; width:20px; height:20px; cursor:pointer}
+.download{background:url(../images/desk_download.png) center no-repeat; background-size:20px 20px; border:none; width:20px; height:20px; cursor:pointer}
+.options{background:url(../images/desk_options.png) center no-repeat; background-size:20px 20px; border:none; width:20px; height:20px; cursor:pointer}
+
+.seemore{text-align:center; padding:20px 5px}
+ 
+.peopletable{height:100px; width:99%; padding:5px;cursor:pointer;}
+.peopleart{border-radius:50% 0 0 50%;height:100px; width:100px;}
+.peoplename{}
+.peoplelabel{}
+
+.videotable{height:150px; width:100%; padding:5px;cursor:pointer;}
+.videoart{height:100px; width:180px;}
+.videoname{font-size:.8em; text-align:right; padding-right:5px}
+.videoartist{width:100%;}
+ 
+.fresh{width:99%;margin-bottom:10px}
+.freshtable{height:70px; padding:0px 10px;cursor:pointer}
+.freshart{height:70px; width:70px;}
+.freshart:hover{}
+.freshlabel{height:50px; width:auto;}
+.freshlabel1{height:20px; width:auto;}
+
+.commentbutton{width:50%; height:40px; background:rgba(44,44,44,.5); border:thick #333 solid; color:#FFF;font-family:myFirstFont; cursor:pointer;border-right:left solid #222}
+.commentbutton:hover{background:#333}
+.comment{width:90%; height:80px; background:rgba(44,44,44,.5); border:none; padding:0 10px; color:#FFF;font-family:myFirstFont;border-left:thick solid #222}
+.commenter{width:90%; height:40px; background:rgba(44,44,44,.5); border:none; padding:0 10px; color:#FFF;font-family:myFirstFont;border-left:thick solid #222}
+
+/*-webkit-filter: blur(5px);  -moz-filter: blur(5px);  -o-filter: blur(5px);  -ms-filter: blur(5px);  filter: blur(5px);*/
+
+
+
+
+
+
+
+::-webkit-scrollbar{width: 1px;height: 1px;}::-webkit-scrollbar-track{background: rgba(0, 0, 0, 0.1);}::-webkit-scrollbar-thumb{background: rgba(0, 0, 0, 0.5);}
+
+.file_button_container1, .file_button_container1 input, .file_button_container, .file_button_container input{width:90%; height:35px; background:#222; border:none; padding:0 10px; color:#FFF;font-family:myFirstFont;}.file_button_container, .file_button_container input:hover{background:#333}.file_button_container, .file_button_container1{background:url(../images/browse.png) right no-repeat;background-size:40px 40px;}.file_button_container input, .file_button_container1 input{opacity: 0; width:95%; cursor:pointer}
+
+.scrollgeneric {line-height: 1px;font-size: 1px;position: absolute;top: 0; left: 0;}.vscrollerbase {width: 5px;background:#000;}.vscrollerbar {width: 5px;background: #000;}.hscrollerbase {height: 5px;background: #000;}.hscrollerbar {height: 5px;background: #000;}.hscrollerbar {background: #AAA 0px -30px repeat-x;}.vscrollerbar {background: #000 -5px 0px repeat-y;}.vscrollerbar, .hscrollerbar {padding: 5px;z-index: 2;}.vscrollerbarbeg {background:-45px -30px no-repeat;width: 5px;height: 5px !important;}.vscrollerbarend {background:-45px 0px no-repeat;width: 5px;height: 5px;}.hscrollerbarbeg {background:-60px -5px no-repeat;height: 5px;width: 5px !important;}.hscrollerbarend {background:-30px -5px no-repeat;height: 5px;width: 5px;}.scrollerjogbox {width: 5px;height: 5px;top: auto; left: auto;bottom: 0px; right: 0px;background: #000 0px 0px;}.vscrollerbase {background:#000 0px 0px repeat-y;}.vscrollerbasebeg {background:-30px -30px no-repeat;width: 5px;height: 5px !important;}.vscrollerbaseend {background:-60px -30px no-repeat;height: 5px;width: 5px;}.hscrollerbase {background: #000 0px -5px repeat-x;}.hscrollerbasebeg {background: -60px 0px no-repeat;height: 5px;width: 5px !important;}.hscrollerbaseend {height: 5px;width: 5px;background:-30px 0px no-repeat;}.scrollerjogbox:hover {background: #000 -45px -5px;}
+
+audio{display:none}

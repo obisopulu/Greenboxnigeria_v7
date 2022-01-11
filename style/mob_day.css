@@ -1,0 +1,45 @@
+/* CSS Document */
+body{background:#111;color:#FFF; text-shadow:0 0 10px #000}
+a{text-decoration:none; color:#FFF}
+a:active{color:#00E676}
+::-moz-selection{color: #FFF;background: #00E676;}
+::selection{color: #FFF;background: #00E676;}
+.header{background:#111; vertical-align:middle;}
+.header1{background:#222; vertical-align:middle}
+.menunav{color:#FFF;}
+.menunav:hover{background:#222}
+.menu{background:#171717;}
+.body{background:#000}
+
+#hot{background:#000}
+.hottable{}
+.hotlabel{}
+.hotlabel:hover{background:rgba(0,0,0,.5)}
+.hotartist{color:#00E676}
+
+fieldset, legend{color:#FFF}
+
+.blogtable:hover{background:#171717}
+.blogtimestamp{color:#00E676; padding-right:10px}
+.blogwriteup{}
+
+.tag, .pagination, .paginationbutton{color:#AAA; background:#222}
+.tag:hover, .pagination:hover, .paginationbutton:hover{color:#FFF; background:#252525}
+
+.seemore{color:#00E676;background:rgba(0,0,0,.2)}
+.seemore:hover{background:#222}
+
+.peopletable{background:rgba(0,0,0,.2); margin-bottom:1px}
+.peoplename{}
+.peoplename{}
+.peoplelabel{color:#00E676}
+
+.videotable{}
+.videoart{}
+.videoname{background:rgba(0,0,0,.5)}
+.videoartist{color:#00E676}
+
+.freshtable{background:rgba(0,0,0,.2); margin-bottom:1px}
+.freshart{}
+.freshartist{color:#00E676;}
+.blogtopic{color:#AAA;}
